@@ -1,0 +1,43 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "title": "Sydney Opera House",
+      "country": "AUSTRALIA",
+      "location": "On-campus",
+      "googleMapUrl": "https://goo.gl/maps/!DGM5WrWnATgkSNB8",
+      "startDate": "27 May. 2022 -",
+      "endDate": "8 June. 2022",
+      "rating": "5.0",
+      "price": 120,
+      "description": "The Sydney Opera House is your place to discover the best of performing arts and culture. From whimsical musicals to side-splitting comedies, arias to ARIA Award-winners, symphonies to sundowners and talks, and backstage tours to playful puppet shows.",
+      "imageUrl": "OperaHouse.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Geirangerfjord",
+      "country": "NORWAY",
+      "location": "On-campus",
+      "googleMapUrl": "https://goo.gl/maps/!DGM5WrWnATgkSNB8",
+      "startDate": "12 Jan. 2022 -",
+      "endDate": "24 Feb. 2022",
+      "rating": "5.0",
+      "price": 125,
+      "description": "The Geirangerfjord is lined by some of the steepest cliffs on the west coast of Norway, it's also incredibly narrow and basically has no shoreline, giving it an even wilder feel than most other fjords.  The waterfalls on the fjord are some of the most famous in Norway.",
+      "imageUrl": "Geirangerfjord_Norway.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mount Fuji",
+      "country": "JAPAN",
+      "location": "On-campus",
+      "googleMapUrl": "https://goo.gl/maps/!DGM5WrWnATgkSNB8",
+      "startDate": "12 Jan. 2022 -",
+      "endDate": "24 Feb. 2022",
+      "rating": "5.0",
+      "price": 130,
+      "description": "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,3.4 feet). It is the single most popular tourist site in Japan, for both Japanese and foreign tourists. It's considered one of Japan's 3 sacred mountains, and summit hikes remain a popular activity.",
+      "imageUrl": "Mount Fuji.jpg"
+    }
+  ]
+}

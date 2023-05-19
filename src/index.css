@@ -1,13 +1,196 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Trebuchet MS", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1400px;
+  margin-top: 80px;
+}
+
+header {
+  width: 100%;
+  background: #f44336;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.p {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  padding-left: 7px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none !important;
+}
+
+nav div a {
+  color: #fff;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+nav div a:hover {
+  transition: 0.3s ease;
+  color: rgb(27, 27, 27);
+}
+
+.Link {
+  font-size: 18px;
+}
+
+.round {
+  width: 100%;
+  height: 230;
+  border-radius: 0.5em;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: left;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+
+.g-link {
+  padding: 0 7px;
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+
+.wrap {
+  padding: 25px 0px;
+}
+
+.wrap:hover {
+  box-shadow: 50px 5px 50px rgba(17, 17, 17, 0.1);
+}
+
+.c-location {
+  margin: 5px 0;
+}
+
+.c-location span {
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.c-date {
+  width: 50%;
+  margin: 10px 0;
+  padding: 2px 7px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: #6e6e6e;
+}
+
+button {
+  margin-top: 20px;
+  width: 30%;
+  color: #fff;
+  background: #f44336;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 0px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking {
+  text-align: center;
+  margin: 272px auto;
+}
+
+.hostel {
+  text-align: center;
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.hostel label {
+  text-align: left;
+  display: block;
+}
+
+/* color red #f1356d */
+.hostel h1 {
+  color: #ef1e0e;
+  margin-bottom: 11px;
+}
+
+.hostel input,
+.hostel textarea,
+.hostel select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.hostel button {
+  width: 100%;
+  background-color: #ef1e0e;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details {
+  padding: 45px;
+}
+
+.see-details {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: #f44336;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 12px;
+  text-decoration: none;
+  /* box-shadow: 50px 5px 50px rgba(17, 17, 17, 0.1); */
+}
+.see-details:hover {
+  background: #fff;
+  border: 1px solid #ef1e0e;
+  color: #ef1e0e;
+  transition: 0.3s ease-out;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found .link {
+  text-decoration: none;
 }
